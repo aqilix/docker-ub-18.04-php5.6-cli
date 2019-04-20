@@ -9,4 +9,4 @@ RUN apt-get install -y software-properties-common
 RUN add-apt-repository ppa:ondrej/php
 RUN apt-get install -y curl rsync git openssh-client
 RUN apt-get install -y php5.6
-RUN apt-get install -y php5.6-zip
+RUN apt-get install -y php5.6-zip php5.6-curl
